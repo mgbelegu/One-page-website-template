@@ -1,0 +1,116 @@
+html {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.col {
+    margin: 0;
+}
+
+.row {
+    margin: 0;
+    padding: 0 64px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.navbar {
+    height: 75px;
+    background-color: white !important;
+    padding: 16px 32px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+
+.nav-link {
+    background-color: white;
+    padding: 12px !important;
+}
+
+.active {
+    color: red !important;
+}
+
+#header-image {
+    top: 0;
+    height: 735px;
+    background-color: gray;
+}
+
+#header-text h1 {
+    font-weight: bold;
+    padding-top: 305px;
+}
+
+#header-text p {
+    max-width: 70vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.a-button {
+    padding: 10px 16px;
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+}
+
+.a-button:hover {
+    text-decoration: none;
+    color: gray;
+}
+
+#sectionOne {
+    height: 550px;
+}
+
+#sectionTwo {
+    background-color: gray;
+    height: 350px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+footer a{
+    color: white;
+    transition: all 200ms ease-in-out;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: gray;
+}
+@media (max-width: 991px) {
+    .navbar {
+        height: auto;
+    }
+    .navbar-brand {
+        padding: 12px;
+    }
+    
+    .navbar-toggler {
+        margin-right: 12px;
+    }
+    
+    .nav-link {
+        background-color: white;
+        padding: 12px !important;
+    }   
+}
