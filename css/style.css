@@ -1,3 +1,4 @@
+/*GENERAL*/
 html {
     width: 100%;
 }
@@ -20,10 +21,18 @@ p {
     font-size: 16px;
 }
 
+/*NAVBAR*/
 .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
     height: 75px;
     background-color: white !important;
     padding: 16px 32px;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.33);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.33);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.33);
 }
 
 .navbar-nav {
@@ -36,10 +45,7 @@ p {
     padding: 12px !important;
 }
 
-.active {
-    color: red !important;
-}
-
+/*HEADER*/
 #header-image {
     height: 550px;
     background-color: gray;
@@ -61,12 +67,15 @@ p {
     color: gray;
 }
 
+/*MAIN SECTIONS*/
 #sectionTwo {
     background-color: gray;
     padding-top: 6em;
     padding-bottom: 6em;
 }
 
+
+/*FOOTER*/
 footer {
     background-color: black;
     color: white;
