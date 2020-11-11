@@ -42,13 +42,13 @@ p {
 
 #header-image {
     top: 0;
-    height: 735px;
+    height: 550px;
     background-color: gray;
 }
 
 #header-text h1 {
     font-weight: bold;
-    padding-top: 305px;
+    padding-top: 205px;
 }
 
 #header-text p {
@@ -75,7 +75,6 @@ p {
 
 #sectionTwo {
     background-color: gray;
-    height: 350px;
 }
 
 footer {
@@ -96,6 +95,10 @@ footer a{
 footer a:hover {
     text-decoration: none;
     color: gray;
+}
+
+.socialLink {
+    padding-right: 24px;
 }
 @media (max-width: 991px) {
     .navbar {
